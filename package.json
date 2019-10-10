@@ -4,13 +4,14 @@
   "description": "itroduction to nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server"
   },
   "author": "Jaime rUEDA",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "nodemon": "^1.19.3"
+    "nodemon": "^1.19.3",
+    "pug": "^2.0.4"
   }
 }
