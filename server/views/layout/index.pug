@@ -8,7 +8,8 @@ html(lang="en")
         href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
         link(href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans:400,700|Staatliches&display=swap', rel='stylesheet')
         link(rel="stylesheet", href="/css/style.css")
-        title Document
+        title #{titulo} | #{pagina}
     body
         include includes/header
         block contenido
+        include includes/footer
